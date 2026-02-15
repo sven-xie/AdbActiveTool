@@ -33,7 +33,7 @@ jobs:
                     main.py
 
     - name: Upload macOS artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: AdbActiveTool-macos
         path: dist/AdbActiveTool.app
@@ -65,7 +65,7 @@ jobs:
                     main.py
 
     - name: Upload Windows artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: AdbActiveTool-windows
         path: dist/AdbActiveTool.exe
